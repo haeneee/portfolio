@@ -1,0 +1,196 @@
+@font-face { font-family: 'S-CoreDream-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'S-CoreDream-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'S-CoreDream-Regular', sans-serif;
+}
+ul,dl,li,dd,dl{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+#fullpage
+{
+    height:100vh;
+    overflow:hidden;
+}
+
+#fullpage section
+{
+    height:100vh;
+    display: flex;
+    align-items: center;
+}
+#fullpage section h1
+{
+    margin:0;
+    padding:0;
+    font-size:5em;
+    text-transform:uppercase;
+    color:#fff4a3;
+    font-family: 'S-CoreDream-Bold';
+    padding: 0 50px;
+}
+
+#fullpage section:nth-child(1)
+{
+    background: #7578ea;
+}
+#fullpage section:nth-child(2)
+{
+    background: #FFF;
+}
+.profile{
+    padding: 0 50px;
+    display: flex;
+    width: 100%;
+}
+.profile > div{
+justify-content: space-between;
+    width: calc(100%/3);
+}
+#fullpage section:nth-child(3)
+{
+    background: #3768F3;
+}
+#fullpage section:nth-child(4)
+{
+    background: #FF5239;
+}
+#fullpage section:nth-child(5)
+{
+    background: #786CFD;
+}
+#fullpage section:nth-child(6)
+{
+    background: #2e3455;
+}
+#fullpage section:nth-child(7)
+{
+    background: #A00045;
+}
+#fullpage section:nth-child(8)
+{
+background: #fff;
+}
+.skill i {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border: 1px solid #7578ea;
+    border-radius: 50%;
+}
+
+.skill i.on{
+    background:#7578ea;
+}
+
+.work div{
+    flex-basis: 50%;
+}
+
+.work img{
+    width: 100%;
+}
+.thumb{
+    padding:0 50px;
+}
+.contents {
+background: #fff;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.app img,.logo img {
+    width: auto;
+}
+.app .contents {
+    background: url("../images/reapwalletbg.jpg") no-repeat;
+    background-size: cover;
+}
+.app .contents img{
+    width: 750px;
+}
+.work ul{
+    padding-top: 15px;
+}
+.work ul li{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.work ul li span {
+    color:rgba(255,255,255,.7);
+    margin-right:3px;
+}
+
+.work ul li a{
+    color:#fff;
+}
+
+.profile ul{
+    padding:20px 0;
+}
+.profile ul li{
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.profile ul li span{
+    color:rgba(0,0,0,.4);
+    margin-right: 5px;
+}
+
+.profile dl{
+    margin-bottom: 25px;
+}
+.profile dt{
+    color:#7578ea;
+    margin-bottom: 10px;
+    font-family: 'S-CoreDream-Bold';
+    font-size: 13px;
+}
+.profile dd{
+    font-size:13px;
+    margin-bottom: 5px;
+}
+
+.profile dd span{
+    color:rgba(0,0,0,.4);
+    margin-right: 5px;
+}
+
+.skill span {
+    width: 70px;
+    display: inline-block;
+}
+
+.logo .thumb{
+    text-align: center;
+}
+.etc ul{
+    text-align: left;
+    padding-top: 50px;
+}
+.etc ul li{
+    color:#333;
+}
+.etc ul li span{
+    color:rgba(0,0,0,.5);
+}
+.details img{
+   width: 100%;
+}
+
+.etc > div{
+    flex-basis: 50%;
+    padding: 50px;
+}
